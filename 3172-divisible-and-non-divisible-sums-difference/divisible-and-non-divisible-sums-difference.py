@@ -5,8 +5,8 @@ class Solution(object):
         for i in range(1,n+1):
             if i%m != 0:
                 a += i
-            if i%m == 0:
-                b += i
+            else:
+                 b += i
 
         return a - b
         
