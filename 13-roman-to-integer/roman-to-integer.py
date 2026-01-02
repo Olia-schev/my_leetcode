@@ -11,7 +11,6 @@ class Solution:
                 exc_letter.append(k)
             except: 
                 continue
-
         s_new = s
         for l in exc_letter:
             s_new = s_new .replace(l,'')
